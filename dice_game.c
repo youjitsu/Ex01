@@ -11,6 +11,7 @@ int main() {
   srand(time(0));  // Initialize random number generator                                                                
   dice1=rollDice();
   dice2=rollDice();
+  
   printf("Rolling dice...\n");
   printf("Die 1: %d\n", dice1);
   printf("Die 2: %d\n", dice2);
