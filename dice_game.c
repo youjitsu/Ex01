@@ -8,6 +8,10 @@ int rollDice() {
 
 int main() {
   int dice1,dice2;
+  char name[100];
+  printf("What is your name?\n");
+  scanf("%s", name);
+	printf("Hello, %s!\n", name);
   srand(time(0));  // Initialize random number generator                                                                
   dice1=rollDice();
   dice2=rollDice();
